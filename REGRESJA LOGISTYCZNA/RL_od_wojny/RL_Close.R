@@ -68,9 +68,7 @@ confusion_train
 # Wybór najlepszego modelu na podstawie najwyższej dokładności ZBIORU TRENINGOWEGO
 best_model_index <- which.max(train_accuracy)
 cat("Najlepszy model ma opóźnienie", best_model_index, "dni z dokładnością", train_accuracy[best_model_index], "na zbiorze treningowym.\n")
-# Najlepszy model ma opóźnienie 30 dni z dokładnością 0.6131528 na zbiorze treningowym.
 
 # Wybór najlepszego modelu na podstawie najwyższej dokładności ZBIORU TESTOWEGO
 # best_model_index_test <- which.max(test_accuracy)
 # cat("Najlepszy model na zbiorze testowym ma opóźnienie", best_model_index_test, "dni z dokładnością", test_accuracy[best_model_index_test], ".\n")
-# Najlepszy model na zbiorze testowym ma opóźnienie 27 dni z dokładnością 0.5384615
