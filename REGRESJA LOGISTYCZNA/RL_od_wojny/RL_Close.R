@@ -63,8 +63,6 @@ for (i in 1:30) {
   cat("Accuracy - Test:", confusion_test$overall['Accuracy'], "\n\n")
 }
 
-confusion_train
-
 # Wybór najlepszego modelu na podstawie najwyższej dokładności ZBIORU TRENINGOWEGO
 best_model_index <- which.max(train_accuracy)
 cat("Najlepszy model ma opóźnienie", best_model_index, "dni z dokładnością", train_accuracy[best_model_index], "na zbiorze treningowym.\n")
